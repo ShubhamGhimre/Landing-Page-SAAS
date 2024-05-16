@@ -10,7 +10,7 @@
 
 body {
     background-color: #FAFBFF;
-
+    margin-bottom: 20px;
 }
 
 /* navbar */
@@ -34,7 +34,6 @@ body {
     color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
-
 }
 
 .nav-items ul li a {
@@ -49,6 +48,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.navbar .bars-btn{
+    background: transparent;
+    border: none;
 }
 
 .nav-btn button {
@@ -68,6 +72,12 @@ body {
     color: #fff;
     padding: 10px 20px;
 }
+
+.hamburger{
+    display: none;
+
+}
+  
 
 /* navbar end */
 
@@ -300,14 +310,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0.02);
+    z-index: -1;
+    height: auto;
 }
 
-.dot {
+.recived .dot {
     position: absolute;
-    top: 0;
+    top: -10%;
     right: 0;
-    z-index: 5;
+    z-index: 1;
 }
 
 .recived div {
@@ -318,6 +329,7 @@ body {
     border-radius: 10px;
     padding: 0 20px;
     z-index: 1;
+    height: auto;
 
 }
 
@@ -326,40 +338,41 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: flex-start;
+  
 }
 
 .recived div .content h4 {
     padding: 5px;
-    background-color: #007bff;
+    background-color: rgba(55, 52, 169, 0.1);
     border-radius: 10px;
-    opacity: 0.1;
     color: #3734A9;
-
 }
 
-.recived div:first-child {
+
+
+.recived-box:nth-child(2) {
     width: 80%;
     margin-left: 10%;
-    box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0.02);
-
-}
-
-.recived div:nth-child(2) {
-    width: 80%;
-    margin-left: 30%;
     box-shadow: 0px 20px 13px 0px rgba(0, 0, 0, 0.04);
 }
 
-.recived div:nth-child(3) {
+.recived-box:nth-child(4) {
     width: 80%;
     margin-left: 25%;
-    box-shadow: 0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.06);
 }
 
-.recived div:last-child {
+.recived-box:nth-child(3) {
+    width: 80%;
+    margin-left: 35%;
+    box-shadow: 0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.06);
+}
+
+.recived-box:nth-child(5){
     width: 80%;
     margin-left: 10%;
-    box-shadow: 0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.06)
+    box-shadow: 0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.06);
+
 }
 
 .choose {
@@ -386,7 +399,6 @@ body {
 .choose p {
     font-weight: 400;
     font-size: 18px;
-    /* color: #505887; */
     padding: 20px 0;
 }
 
@@ -424,11 +436,11 @@ body {
 }
 
 .balance {
-    background-color: #DBF1FA;
     width: 45%;
     height: auto;
     padding: 300px 20px;
     position: relative;
+    background-color: #DBF1FA;
 }
 
 .balance img:first-child {
@@ -456,7 +468,7 @@ body {
 .features {
     margin-top: 5%;
     padding: 100px 100px;
-    width: 100%;
+    /* width: 100%; */
     background-color: #C9E7F2;
     display: flex;
     flex-direction: column
@@ -486,7 +498,6 @@ body {
 
 .features .box {
     width: 30%;
-    height: auto;
     display: flex;
     background-color: #FFFFFF;
     flex-direction: column;
@@ -494,7 +505,7 @@ body {
     justify-content: center;
     align-items: start;
     flex-wrap: wrap;
-    padding: 30px 20px;
+    padding: 30px;
 }
 
 .boxes {
@@ -504,7 +515,6 @@ body {
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-
 }
 
 .box-1 {
@@ -559,11 +569,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .testimonials .quote {
-    width: 50%;
+    width: 45%;
     height: auto;
     display: flex;
     gap: 20px;
@@ -582,7 +593,7 @@ body {
 }
 
 .testimonial .quote:last-child {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 /* testimonial end */
@@ -652,6 +663,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -681,10 +693,23 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
     flex-wrap: wrap;
     background-color: #FFFFFF;
     margin-bottom: 20px;
+}
+
+
+.practice-full .content p{
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.practice-full .content h6{
+    font-size: 29px;
+    line-height: 36px;
+    font-weight: 700;
+    padding: 30px 0;
 }
 
 .practice-box {
@@ -695,9 +720,7 @@ body {
 }
 
 .practice-box .practice .content {
-
-
-    padding: 20px 0px;
+    padding: 20px;
 }
 
 .practice-box .practice .content p {
@@ -713,8 +736,6 @@ body {
     font-weight: 700;
     line-height: 36px;
 }
-
-
 /* blog end */
 
 /* faq start */
@@ -751,11 +772,13 @@ body {
 
 .faq .faq-box {
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:10px;
 }
 
 .faq .faq-box .questions {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -763,7 +786,7 @@ body {
 
 .faq .faq-box .questions .question {
     width: 100%;
-
+    flex-wrap: wrap;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -772,7 +795,6 @@ body {
     padding: 20px 10px;
     border: 1px solid #DBE4E9;
     border-radius: 10px;
-    height: auto;
 }
 
 .faq .faq-box .questions .question div {
@@ -810,7 +832,6 @@ body {
 
 .orange-btn {
     background-color: #FF7F5C;
-    /* width: 60%; */
     padding: 20px 30px;
     color: #FFFFFF;
     border: none;
@@ -844,7 +865,7 @@ body {
 .bigbanner img:nth-child(3) {
     position: absolute;
     top: 60%;
-    left:10%;
+    left: 10%;
 }
 
 .bigbanner img:nth-child(4) {
@@ -884,3 +905,77 @@ body {
     border-radius: 10px;
     position: relative;
 }
+
+/* big banner end */
+
+/* footer start */
+footer {
+    padding: 10px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+footer .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .row h2 {
+    color: #1B1C31;
+    font: 700 21px 'Manrope', sans-serif;
+}
+
+footer .row .socials {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer .row ul li {
+    align-self: flex-start;
+    list-style: none;
+    padding: 10px;
+}
+
+footer .row div{
+    display: flex;
+}
+
+footer .row div input {
+    padding: 10px;
+    width: 60%;
+   
+   border: 1px;
+    border-right: none;
+}
+footer .row div button {
+    padding: 10px 30px;
+    background-color: #3734A9;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+  
+}
+.Footer::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color:  #E5E5EA;
+    margin-top: 10px;
+}
+.copyright{
+    padding: 10px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer end */

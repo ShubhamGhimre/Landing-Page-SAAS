@@ -16,6 +16,8 @@
         <div class="logo">
             <h1>AR SAKIRA</h1>
         </div>
+
+
         <div class="nav-items">
             <ul>
                 <li><a href="#">Product <img src="images/dropdown.png" alt="dropdownimg"> </a></li>
@@ -28,6 +30,13 @@
             <button class="signin">sign in</button>
             <button class="active-btn">Start Free</button>
         </div>
+
+        <button class="hamburger" onclick="tooglenav()"> <i class="fa-solid fa-bars"></i> </button>
+
+
+
+
+
     </nav>
     <div class="hero">
         <img class="img-dot" src="images/hero-dot.png" alt="dotts">
@@ -125,36 +134,35 @@
 
     <div class="choose-us">
         <div class="recived">
-            <!-- <img class="dot" src="images/balance/2.png" alt="2"> -->
-            <div>
+            <img class="dot" src="images/balance/2.png" alt="2">
+            <div class="recived-box">
                 <img src="images/person/1.png" alt="person">
                 <div class="content">
                     <h4>+ $28,900</h4>
                     <p>Received from Michael V</p>
                 </div>
             </div>
-            <div>
+            <div class="recived-box">
                 <img src="images/person/2.png" alt="person">
                 <div class="content">
                     <h4>+ $28,900</h4>
                     <p>Received from Michael V</p>
                 </div>
             </div>
-            <div>
+            <div class="recived-box">
                 <img src="images/person/3.png" alt="person">
                 <div class="content">
                     <h4>+ $28,900</h4>
                     <p>Received from Michael V</p>
                 </div>
             </div>
-            <div>
+            <div class="recived-box">
                 <img src="images/person/4.png" alt="person">
                 <div class="content">
                     <h4>+ $28,900</h4>
                     <p>Received from Michael V</p>
                 </div>
             </div>
-
 
         </div>
         <div class="choose">
@@ -197,9 +205,11 @@
         </div>
 
         <div class="balance">
-            <img src="images/balance/balance.png" alt="total balance">
-            <img src="images/balance/card.png" alt="card">
-            <img src="images/balance/dots.png" alt="dots">
+            <div>
+                <img src="images/balance/balance.png" alt="total balance">
+                <img src="images/balance/card.png" alt="card">
+                <img src="images/balance/dots.png" alt="dots">
+            </div>
         </div>
     </div>
 
@@ -254,7 +264,7 @@
 
                     <p>- Mike Taylor, Web Designer</p>
                 </div>
-                <img src="images/Testimonials/Tperson1.png" alt="person 1">
+                <img class="person" src="images/Testimonials/Tperson1.png" alt="person 1">
 
             </div>
             <div class="quote">
@@ -266,7 +276,7 @@
 
                     <p>- Mike Taylor, Web Designer</p>
                 </div>
-                <img src="images/Testimonials/Tperson2.png" alt="person 1">
+                <img class="person"  src="images/Testimonials/Tperson2.png" alt="person 1">
             </div>
         </div>
     </div>
@@ -302,9 +312,10 @@
                 <div class="content">
                     <p>Best Practices</p>
 
-                    <h4>In design active temper be uneasy. Thirty for remove plenty regard.</h4>
+                    <h6>In design active temper be uneasy <br> Thirty for remove plenty regard.</h6>
 
-                    <p>Read More <i class="fa-solid fa-arrow-right"></i> </p>
+                    <p style="color:  #1B1C31
+                    ;">Read More <i class="fa-solid fa-arrow-right"></i> </p>
                 </div>
                 <img src="images/blog/blog1.png" alt="img">
             </div>
@@ -387,7 +398,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="bigbanner">
         <div class="content">
             <img src="images/bigbanner/Vector.png" alt="vector">
@@ -401,9 +412,56 @@
                 Get Started Now
             </button>
         </div>
-       
     </div>
+    <div class="Footer">
+        <footer>
+            <div class="row">
+                <h2>AR Shakir</h2>
+                <span>
+                    Finance helps companies
+                    <br>
+                    manage payments easily.
+                </span>
+                <div class="socials">
+                    <img src="images/social/052-linkedin.png" alt="linkedin">
+                    <img src="images/social/025-messenger.png" alt="messager">
+                    <img src="images/social/096-twitter.png" alt="twitter">
+                    <img src="images/social/097-twoo.png" alt="twoo">
 
+                </div>
+            </div>
+            <div class="row">
+                <h2>Company</h2>
+                <ul>
+                    <li>About Us</li>
+                    <li>Career</li>
+                    <li>Blog</li>
+                    <li>Pricing</li>
+            </div>
+
+            <div class="row">
+                <h2>Resources</h2>
+                <ul>
+                    <li>Proposal Template</li>
+                    <li>Invoice Template</li>
+                    <li>Tuturoial</li>
+                    <li>How to write a contract</li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <h2>Join Our Newsletter</h2>
+                <div>
+                    <input type="text" placeholder="Your email address">
+                    <button>Suscribe</button>
+                </div>
+                <p>* Will send you weekly updates for your better
+                    finance management.</p>
+
+            </div>
+        </footer>
+    </div>
+    <span class="copyright"> Copyright @ AR Shakir 2022. All Rights Reserved.</span>
 </body>
 
 </html>
