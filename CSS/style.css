@@ -664,9 +664,10 @@ body {
 
 .blog .practices {
     width: 100%;
-  
+
 }
-.blog .practice-box .practice{
+
+.blog .practice-box .practice {
     width: 30%;
     height: 436px;
     background-color: #FFFFFF;
@@ -694,7 +695,7 @@ body {
 }
 
 .practice-box .practice .content {
-  
+
 
     padding: 20px 0px;
 }
@@ -715,3 +716,171 @@ body {
 
 
 /* blog end */
+
+/* faq start */
+.faq {
+    padding: 50px 100px;
+    width: 100%;
+    background-color: #FAFBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    position: relative;
+}
+
+.faq .sprial {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.faq .yellow-y {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.faq h1 {
+    font-size: 71px;
+    font-weight: 800;
+    line-height: 76px;
+    width: 50%;
+}
+
+.faq .faq-box {
+    display: flex;
+    gap: 40px;
+}
+
+.faq .faq-box .questions {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq .faq-box .questions .question {
+    width: 100%;
+
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 10px;
+    border: 1px solid #DBE4E9;
+    border-radius: 10px;
+    height: auto;
+}
+
+.faq .faq-box .questions .question div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.faq .faq-box .questions .question h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.faq .faq-box .questions .question p {
+    width: 60%;
+}
+
+
+.faq .faq-box .contact {
+    width: 40%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 30px;
+}
+
+.orange-btn {
+    background-color: #FF7F5C;
+    /* width: 60%; */
+    padding: 20px 30px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+/* faq end */
+
+/* big banner start */
+.bigbanner {
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.bigbanner img:nth-child(1) {
+    position: absolute;
+    top: 10%;
+    right: 70%;
+}
+
+.bigbanner img:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+.bigbanner img:nth-child(3) {
+    position: absolute;
+    top: 60%;
+    left:10%;
+}
+
+.bigbanner img:nth-child(4) {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.bigbanner img:nth-child(5) {
+    position: absolute;
+    top: 12%;
+    right: 10%;
+}
+
+
+.bigbanner .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3734A9;
+    padding: 100px 0;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.bigbanner .content h1 {
+    font-size: 56px;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 61px;
+    width: 60%;
+    text-align: center;
+}
+
+.bigbanner .content button {
+    border-radius: 10px;
+    position: relative;
+}
