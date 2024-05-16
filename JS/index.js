@@ -1,9 +1,9 @@
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.nav-links');
-const navBtns = document.querySelectorAll('.nav-btn');
+const navItemsMobile = document.querySelector('.nav-items-mobile');
+const HamBurger = document.querySelector('.hamburger');
 
-function toggleNav() {
-  navLinks.classList.toggle('open');
-  hamburger.classList.toggle('open');
-}
+HamBurger.addEventListener('click', () => {
+    navItemsMobile.classList.toggle('show');
+    HamBurger.classList.toggle('close');
+});
+
 
