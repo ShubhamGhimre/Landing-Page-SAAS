@@ -1,0 +1,125 @@
+
+/* Media query for devices with max-width 768px (typical tablets) */
+@media only screen and (max-width: 950px) {
+    .hero {
+        padding: 0 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .hero-img img {
+        width: 75%;
+    }
+
+    .hero-btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-btn button {
+        padding: 15px 25px;
+        font-size: 14px;
+    }
+
+    .hero-footer {
+
+        padding-top: 0px;
+    }
+
+    .section-heading {
+        padding: 0 50px;
+    }
+
+    .section-heading .content {
+        width: 100%;
+    }
+
+    .section-heading .quote-box {
+        width: 100%;
+    }
+
+    .value-props {
+        padding: 0 50px;
+    }
+
+    .value-props .props {
+        width: 100%;
+    }
+
+    .choose-us {
+        padding: 0 50px;
+    }
+
+
+
+
+}
+
+/* Media query for devices with max-width 480px (typical smartphones) */
+@media only screen and (max-width: 480px) {
+
+    .hero {
+        padding: 0 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 20px;
+    }
+
+    .hero-content p {
+        font-size: 10px;
+    }
+
+    .hero-img img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .hero-btn button {
+        padding: 5px;
+        border-radius: 20px;
+    }
+
+    .hero-footer i {
+        font-size: 30px;
+    }
+
+
+    .companies {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .section-heading {
+        padding: 0 20px;
+    }
+
+    .section-heading .content {
+        width: 100%;
+    }
+
+    .section-heading .quote-box {
+        width: 100%;
+    }
+
+    .value-props {
+        padding: 0 10px;
+    }
+
+    .value-props .props {
+        width: 100%;
+    }
+
+    .choose-us {
+        padding: 0 10px;
+    }
+}
