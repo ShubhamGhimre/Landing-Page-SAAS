@@ -223,7 +223,7 @@ body {
     font-size: 16px;
 }
 
- .quote-box {
+.quote-box {
     position: relative;
     background-color: #C4C4C4;
     display: flex;
@@ -302,13 +302,15 @@ body {
     position: relative;
     box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0.02);
 }
-.dot{
+
+.dot {
     position: absolute;
     top: 0;
-    right: 0; 
+    right: 0;
     z-index: 5;
 }
-.recived div{
+
+.recived div {
     display: flex;
     align-items: center;
     margin: 20px 0;
@@ -316,41 +318,45 @@ body {
     border-radius: 10px;
     padding: 0 20px;
     z-index: 1;
-    
+
 }
 
-.recived div .content{
+.recived div .content {
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: flex-start;
 }
-.recived div .content h4{
+
+.recived div .content h4 {
     padding: 5px;
     background-color: #007bff;
     border-radius: 10px;
     opacity: 0.1;
     color: #3734A9;
-    
+
 }
 
-.recived div:first-child{
+.recived div:first-child {
     width: 80%;
     margin-left: 10%;
     box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0.02);
-    
+
 }
-.recived div:nth-child(2){
+
+.recived div:nth-child(2) {
     width: 80%;
     margin-left: 30%;
     box-shadow: 0px 20px 13px 0px rgba(0, 0, 0, 0.04);
 }
-.recived div:nth-child(3){
+
+.recived div:nth-child(3) {
     width: 80%;
     margin-left: 25%;
     box-shadow: 0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.05);
 }
-.recived div:last-child{
+
+.recived div:last-child {
     width: 80%;
     margin-left: 10%;
     box-shadow: 0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.06)
@@ -384,7 +390,7 @@ body {
     padding: 20px 0;
 }
 
-.choose p::after{
+.choose p::after {
     content: "";
     display: block;
     width: 100%;
@@ -394,7 +400,7 @@ body {
 
 }
 
-.choose div{
+.choose div {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -403,8 +409,8 @@ body {
     padding: 20px 0;
 }
 
-.choose div span i{
-    color:  #FDBC64;
+.choose div span i {
+    color: #FDBC64;
 }
 
 .choose .quote-box {
@@ -417,7 +423,7 @@ body {
     top: -20px;
 }
 
-.balance{
+.balance {
     background-color: #DBF1FA;
     width: 45%;
     height: auto;
@@ -425,28 +431,29 @@ body {
     position: relative;
 }
 
-.balance img:first-child{
+.balance img:first-child {
     position: absolute;
     bottom: -50%;
-    left: -30% ;
+    left: -30%;
 }
 
-.balance img:nth-child(2){
+.balance img:nth-child(2) {
     position: absolute;
     top: 0;
     right: 20%;
     height: 100%;
-  
+
 }
 
-.balance img:nth-child(3){
+.balance img:nth-child(3) {
     position: absolute;
     top: 10%;
     left: -5%;
 }
+
 /* why choose us finised */
 
-.features{
+.features {
     margin-top: 5%;
     padding: 100px 100px;
     width: 100%;
@@ -455,19 +462,21 @@ body {
     flex-direction: column
 }
 
-.features .content h1{
+.features .content h1 {
     font-size: 56px;
     font-weight: 800;
     color: #000000;
     margin-bottom: 22px;
 }
-.features .content p{
+
+.features .content p {
     font-size: 16px;
     font-weight: 400;
     line-height: 29px;
     padding: 30px 0;
 }
-.feature-box{
+
+.feature-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -475,7 +484,7 @@ body {
     flex-wrap: wrap;
 }
 
-.features .box{
+.features .box {
     width: 30%;
     height: auto;
     display: flex;
@@ -487,7 +496,8 @@ body {
     flex-wrap: wrap;
     padding: 30px 20px;
 }
-.boxes{
+
+.boxes {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -496,7 +506,8 @@ body {
     flex-wrap: wrap;
 
 }
-.box-1{
+
+.box-1 {
     width: 380px;
     height: auto;
     display: flex;
@@ -505,10 +516,11 @@ body {
     background-color: #FFFFFF;
     padding: 35px;
 }
+
 /* feature end */
 
 /* testimonals */
-.testimonial{
+.testimonial {
     padding: 100px 100px;
     width: 100%;
     background-color: #F5F6F8;
@@ -517,36 +529,40 @@ body {
     align-items: start;
     gap: 20px;
 }
-.testimonial .content{
+
+.testimonial .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
-.testimonial .content h1{
+
+.testimonial .content h1 {
     font-size: 56px;
     font-weight: 800;
     color: #000000;
     margin-bottom: 22px;
 }
-.testimonial .content p{
+
+.testimonial .content p {
     font-size: 16px;
     font-weight: 400;
     line-height: 29px;
     padding: 30px 0;
 }
-.testimonial .content div{
+
+.testimonial .content div {
     width: 50%;
 }
 
-.testimonials{
+.testimonials {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
 
-.testimonials .quote{
+.testimonials .quote {
     width: 50%;
     height: auto;
     display: flex;
@@ -558,16 +574,144 @@ body {
     border-radius: 10px;
     position: relative;
 }
-.testimonials .quote .quote-img{
+
+.testimonials .quote .quote-img {
     position: absolute;
     top: -20px;
     left: 3%;
 }
-.testimonial .quote:last-child{
-    margin-left:30px;
+
+.testimonial .quote:last-child {
+    margin-left: 30px;
 }
 
 /* testimonial end */
 
-/*  */
+/* banner start  */
 
+.banner {
+    padding: 30px 100px;
+    width: 100%;
+    background-color: #3734A9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    position: relative;
+    height: 256px;
+}
+
+.banner div:first-child {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-right: 2px solid #3D3D3D;
+    height: 100%;
+    width: 10%;
+}
+
+
+.banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: #FFFFFF;
+
+}
+
+.banner div h1 {
+    font-size: 72px;
+    padding: 20px;
+    font-weight: 800;
+    line-height: 41px;
+}
+
+.banner div p {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31px;
+    padding: 20px;
+}
+
+.banner .banner-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* banner end */
+
+/* bolg start */
+.blog {
+    padding: 50px 100px;
+    width: 100%;
+    background-color: #FAFBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.bolg h1 {
+    font-size: 56px;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.blog .practices {
+    width: 100%;
+  
+}
+.blog .practice-box .practice{
+    width: 30%;
+    height: 436px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.blog .practices .practice-full {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.practice-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.practice-box .practice .content {
+  
+
+    padding: 20px 0px;
+}
+
+.practice-box .practice .content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.practice-box .practice .content h4 {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+
+/* blog end */
