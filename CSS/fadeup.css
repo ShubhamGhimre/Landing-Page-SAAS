@@ -1,0 +1,44 @@
+/*  fade animations */
+.fade {
+    opacity: 0;
+    transition: 0.5s ease-out;
+}
+
+/* Fade up */
+.fade-up {
+    transform: translateY(100%);
+    scale: 0.9;
+    transition: 0.5s ease-out;
+}
+
+.fade-up-scrolled {
+    transform: translateY(0%);
+    opacity: 1;
+    scale: 1;
+}
+
+/* Fade right */
+.fade-right {
+    transform: translateX(-100%);
+    scale: 0.9;
+    transition: 0.5s ease-out;
+}
+
+.fade-right-scrolled {
+    transform: translateX(0%);
+    opacity: 1;
+    scale: 1;
+}
+
+/* Fade left */
+.fade-left {
+    transform: translateX(100%);
+    scale: 0.9;
+    transition: 0.5s ease-out;
+}
+
+.fade-left-scrolled {
+    transform: translateX(0%);
+    opacity: 1;
+    scale: 1;
+}

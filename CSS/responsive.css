@@ -257,6 +257,11 @@
 /* Media query for devices with max-width 480px (typical smartphones) */
 @media only screen and (max-width: 540px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
+
     /* Navbar start */
     .navbar {
         padding: 20 10px;
@@ -390,9 +395,13 @@
         width: 100%;
 
     }
+    .choose .quote-box {
+        margin-top: 0%;
+        width: 100%;
+    }
 
     .choose div {
-        margin-top: 40%;
+        margin-top: 0%;
     }
 
     .balance img:first-child {
@@ -474,7 +483,7 @@
     }
 
     .choose .quote-box {
-        margin-top: 20%;
+        margin-top: 0%;
         width: 100%;
     }
 
