@@ -1,15 +1,20 @@
 /* Media query for devices with max-width 768px (typical tablets) */
-@media only screen and (max-width: 950px) {
-    body{
+@media only screen and (max-width: 1024px) {
+
+    body {
         overflow-x: hidden;
     }
+
+    /* hero and navbar css */
     .hero {
         padding: 0 30px;
     }
-    .show{
+
+    .show {
         display: block;
         transition: all 0.5s ease;
     }
+
     .hero-content h1 {
         font-size: 40px;
     }
@@ -36,6 +41,9 @@
         padding-top: 0px;
     }
 
+    /* hero end */
+
+    /* section start */
     .section-heading {
         padding: 0 50px;
     }
@@ -48,6 +56,9 @@
         width: 100%;
     }
 
+    /* section end */
+
+    /* value props start */
     .value-props {
         padding: 0 50px;
     }
@@ -56,6 +67,9 @@
         width: 100%;
     }
 
+    /* value props end */
+
+    /* why choose us start */
     .choose-us {
         padding: 0 50px;
     }
@@ -63,32 +77,69 @@
     .recived {
         width: 100%;
     }
+
     .choose {
         width: 100%;
         margin-bottom: 10%;
     }
+
     .balance {
-        width: 100%;  
+        width: 100%;
     }
+
     .balance img:first-child {
         bottom: -40%;
         left: -10%;
     }
+
     .balance img:nth-child(2) {
         top: 0;
         right: 10%;
         height: 100%;
     }
-    .features .box {
-        width: 40%;
+
+    .recived-box:nth-child(3) {
+        margin-left: 10%;
     }
+
+    .recived-box:nth-child(4) {
+        margin-left: 10%;
+    }
+
+    /* why choose us end */
+
+    /* feature box start */
+    .features .box {
+        width: 100%;
+    }
+
     .boxes {
         flex-direction: row;
     }
+
     .box-1 {
         width: 40%;
-        
+
     }
+
+    /* feature box end */
+
+    /* testimonial start */
+    .testimonial {
+        padding: 0, 10px;
+        width: 100%;
+
+    }
+
+    .testimonial .content {
+        text-align: start;
+        flex-direction: row;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
     .testimonials .quote {
         width: 45%;
         height: auto;
@@ -103,36 +154,115 @@
         position: relative;
     }
 
-    .blog .practices .practice-full {
-    
-        justify-content: center;
-       
+    /* testimonial end */
+
+    /* frequently asked question start */
+    .faq .faq-box {
+        flex-direction: column;
+        gap: 10px;
     }
+
+    .faq .faq-box {
+        padding: 0 50px;
+        margin: 0;
+    }
+
+    .faq .faq-box .questions .question {
+        width: 100;
+        flex-wrap: wrap;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px 10px;
+        border: 1px solid #DBE4E9;
+        border-radius: 10px;
+    }
+
+    .faq {
+        padding: 0 50px;
+        width: 100%;
+    }
+
+    .faq h1 {
+        font-size: 54px;
+
+    }
+
+    .faq .faq-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .faq .faq-box .questions {
+        width: 100%;
+    }
+
+    .faq .faq-box .questions .question p {
+        width: 100%;
+    }
+
+    .faq .faq-box .contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* frequently asked question end */
+
+    /* blog start */
+    .blog .practices .practice-full {
+
+        justify-content: space-around;
+        gap: 10px;
+        align-items: start;
+    }
+
     .blog .practice-box .practice {
         width: 100%;
-       
+
     }
+
+    /* blog end */
     .banner {
-       display: none;
-
+        display: none;
     }
-  
-    .bigbanner{
+
+    /* big banner start */
+    .bigbanner {
         padding: 0 50px;
-    
+
     }
 
+
+    .bigbanner img:nth-child(2) {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+    }
+
+    /* big banner end */
+
+    /* footer start */
+    footer {
+        padding: 0px 10px;
+        width: 100%;
+
+    }
+
+    /* footer end */
 
 }
 
 /* Media query for devices with max-width 480px (typical smartphones) */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 540px) {
 
+    /* Navbar start */
     .navbar {
         padding: 20 10px;
         right: 100%;
     }
-  
+
 
     .nav-items ul li a {
         flex-direction: column;
@@ -151,9 +281,9 @@
         cursor: pointer;
     }
 
-    .nav-link {}
+    /* Navbar start  end*/
 
-
+    /* hero start */
     .hero {
         padding: 0 10px;
     }
@@ -181,24 +311,30 @@
     .hero-footer i {
         font-size: 30px;
     }
+
     .hero .img-dot-2 {
         position: absolute;
         top: 50px;
-        right:-10px;
+        right: -10px;
     }
+
     .hero .dot-img {
         position: absolute;
         bottom: -50%;
         right: 0;
     }
 
+    /* hero end */
 
+    /* companies start */
     .companies {
         font-size: 16px;
         line-height: 22px;
     }
 
+    /* companies end */
 
+    /* section heading start */
     .section-heading {
         padding: 0 20px;
     }
@@ -206,6 +342,7 @@
     .section-heading .content {
         width: 100%;
     }
+
     .section-heading .content h1 {
         font-size: 38px;
     }
@@ -213,6 +350,10 @@
     .section-heading .quote-box {
         width: 100%;
     }
+
+    /* section heading end */
+
+    /* value props start */
 
     .value-props {
         padding: 0 10px;
@@ -222,28 +363,38 @@
         width: 100%;
     }
 
+    /* value props end */
+
+    /* why choose us start */
     .choose-us {
         padding: 0 10px;
-     
     }
+
     .recived {
         width: 100%;
-        
     }
+
     .choose {
         width: 100%;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
+
     .choose h1 {
         font-size: 30px;
         line-height: 40px;
-        
+
     }
+
     .balance {
         margin: 20% 0;
         width: 100%;
-      
+
     }
+
+    .choose div {
+        margin-top: 40%;
+    }
+
     .balance img:first-child {
         z-index: 1;
         position: absolute;
@@ -251,16 +402,22 @@
         left: -20%;
         width: 100%;
     }
+
+    /* why choose us end */
+
+    /* feature start */
     .features {
         margin-top: 5%;
-        padding:  10px;
+        padding: 10px;
     }
+
     .features .content h1 {
         font-size: 30px;
         font-weight: 800;
-        color: #000000;
+        color: var(--black);
         margin-bottom: 22px;
     }
+
     .features .box {
         width: 100%;
     }
@@ -269,101 +426,157 @@
         width: 100%;
     }
 
+    /* feature end */
+
+    /* testimonial start */
     .testimonial {
         padding: 0px 10px;
         width: 100%;
+        font-family: j;
     }
+
+
+
+    .testimonial .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial .content h1 {
+        font-size: 36px;
+        margin-bottom: 0px;
+    }
+
     .testimonials .quote {
         width: 100%;
         flex-direction: column;
         gap: 10px;
     }
-    .testimonial .quote .person {
+
+    .testimonials .quote .person {
         width: 100%;
         object-fit: contain;
         height: 400px;
     }
-    .content {
-        flex-direction: column;
-    }
-    .testimonial .quote:last-child {
-        margin-left: 0;
-        margin-top: 10%;
-    }
-    .banner {
-        display: none;
-    }
-    
-    .blog {
-        padding: 0 10px;
-        margin-bottom: 10%;
-    }
-    .blog .practices .practice-full img {
-        width: 100%;
-    }
-    .blog .practice-box .practice {
-        width: 100%;
-    }
-    .faq {
-        padding: 0 10px;
-        width: 100%;
-    }
-    .faq h1 {
-        font-size: 54px;
-        
-    }
-    .faq .faq-box {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .faq .faq-box .questions {
-        width: 100%; 
-    }
-    .faq .faq-box .questions .question p {
-        width:100%;
-    }
-    .faq .faq-box .contact {
-        width: 100%;
-        text-align: center;
-    }
-    .recived-box:nth-child(3) {
-        margin-left: 10%;
-    }
-    .recived-box:nth-child(4) {
-       
-        margin-left: 10%;
-  
-    }
+
     .testimonial .content div {
         width: 100%;
     }
 
+
+    .content {
+        flex-direction: column;
+    }
+
+    .testimonial .quote:last-child {
+        margin-left: 0;
+        margin-top: 10%;
+    }
+
+    .choose .quote-box {
+        margin-top: 20%;
+        width: 100%;
+    }
+
+    /* testimonial end */
+    .banner {
+        display: none;
+    }
+
+    /* blog start */
+    .blog {
+        padding: 0 10px;
+        margin-bottom: 10%;
+    }
+
+    .blog .practices .practice-full img {
+        width: 100%;
+    }
+
+    .blog .practice-box .practice {
+        width: 100%;
+    }
+
+    /* blog end */
+
+    /* frequently asked question start */
+    .faq {
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .faq h1 {
+        font-size: 54px;
+
+    }
+
+    .faq .faq-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .faq .faq-box .questions {
+        width: 100%;
+    }
+
+    .faq .faq-box .questions .question p {
+        width: 100%;
+    }
+
+    .faq .faq-box .contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    .recived-box:nth-child(3) {
+        margin-left: 10%;
+    }
+
+    .recived-box:nth-child(4) {
+
+        margin-left: 10%;
+
+    }
+
+    /* frequently asked question end */
+
+    /* big banner start */
     .bigbanner {
         padding: 0 10px;
     }
+
     .bigbanner .content h1 {
         font-size: 38px;
     }
+
     .bigbanner img:nth-child(4) {
-   
+
         top: 50%;
         left: 0;
     }
+
     .bigbanner img:nth-child(2) {
         top: 65%;
         left: 50%;
     }
+
+    /* big banner end */
+
+    /* footer start */
     footer {
         padding: 0px 10px;
         width: 100%;
         flex-direction: column;
-        
-    }   
+
+    }
+
     footer .row {
         width: 100%;
     }
 
     .copyright {
         padding: 10px;
-    } 
+    }
+
+    /* footer end */
 }
