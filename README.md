@@ -1,5 +1,5 @@
-﻿# intuji-frontend-internship-challenge
-This is my public repo dor the intuji-frontend-internship-challenge
+﻿# Landing Page
+This is an Landing page made using basic HTML CSS AND JS
 
 - To Run Project
     1. first clone the repo
